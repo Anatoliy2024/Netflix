@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import style from './face.module.scss'
-// import { Carousel } from './Carousel3/carousel'
 import { Modal } from '../Modal/Modal'
 import Carousel4 from './Carousel4/carousel'
 
