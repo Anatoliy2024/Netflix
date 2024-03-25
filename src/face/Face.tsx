@@ -5,12 +5,12 @@ import Carousel4 from './Carousel4/carousel'
 
 const images = [
   {
-    lowQualitySrc: '/public/carousel1/1small.jpg',
+    lowQualitySrc: '/1small.jpg',
     highQualitySrc: '/carousel1/1orig.jpeg',
     text: 'Белый харёк',
   },
   {
-    lowQualitySrc: '/carousel1/2small.jpg',
+    lowQualitySrc: '../2small.jpg',
     highQualitySrc: '/carousel1/2orig.jpg',
     text: 'Тюлень',
   },
