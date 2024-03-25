@@ -5,17 +5,17 @@ import Carousel4 from './Carousel4/carousel'
 
 const images = [
   {
-    lowQualitySrc: '/1small.jpg',
+    lowQualitySrc: '/Netflix/public/1small.jpg',
     highQualitySrc: '/carousel1/1orig.jpeg',
     text: 'Белый харёк',
   },
   {
-    lowQualitySrc: '../2small.jpg',
+    lowQualitySrc: '../Netflix/public/2small.jpg',
     highQualitySrc: '/carousel1/2orig.jpg',
     text: 'Тюлень',
   },
   {
-    lowQualitySrc: '../public/carousel1/3small.jpeg',
+    lowQualitySrc: '../Netflix/carousel1/3small.jpeg',
     highQualitySrc: '/carousel1/3orig.jpg',
     text: 'Пара туканов',
   },
