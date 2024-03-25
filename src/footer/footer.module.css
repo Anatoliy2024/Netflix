@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.item3, .item2, .item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  height: 100%;
+  width: 100%;
+}
+
+.item1 {
+  background-color: rgb(191, 50, 50);
+}
+
+.item2 {
+  background-color: rgb(11, 164, 34);
+}
+
+.item3 {
+  background-color: rgb(29, 0, 249);
+}/*# sourceMappingURL=footer.module.css.map */

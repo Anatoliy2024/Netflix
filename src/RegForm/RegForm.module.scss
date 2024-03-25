@@ -1,0 +1,34 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.616);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .containerForm {
+    width: 50vw;
+    height: 50vh;
+    background: rgba(33, 47, 92, 0.93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    label {
+      margin-bottom: 5px;
+    }
+    input {
+      margin-bottom: 15px;
+    }
+    button {
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+  }
+}

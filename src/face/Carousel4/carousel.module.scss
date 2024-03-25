@@ -1,0 +1,70 @@
+.slider {
+  min-width: 300px;
+  max-width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  //не дает выделить текст в слайде
+  user-select: none;
+  margin-bottom: 50px;
+  // touch-action: pan-y;
+  &:hover {
+    cursor: url('/grab.svg'), auto;
+  }
+  &:active {
+    cursor: url('/grabbed.svg'), auto;
+  }
+  .window {
+    height: 100%;
+    width: 300px;
+    .sliderLine {
+      transition: all 0.4s ease;
+      display: flex;
+      height: 100%;
+      width: 100%;
+      margin: 0 -10px;
+      .oneSlide {
+        height: 100%;
+        margin: 0 10px;
+
+        .blockImg {
+          height: 85%;
+          width: 100%;
+          img {
+            //не дает перемещать картинку при нажатии мышкой
+            pointer-events: none;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+        .textImg {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 15%;
+        }
+      }
+    }
+  }
+
+  %arrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .arrow1 {
+    @extend %arrow;
+    left: 0;
+    top: 40%;
+    transform: translateY(-40%);
+  }
+  .arrow2 {
+    @extend %arrow;
+    right: 0;
+    top: 40%;
+    transform: translateY(-40%);
+  }
+}

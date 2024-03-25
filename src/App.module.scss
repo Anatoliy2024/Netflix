@@ -1,0 +1,12 @@
+.container {
+  // height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+
+  color: white;
+  // display: grid;
+  // grid-template-rows: 50px minmax(171px, max-content) minmax(171px, min-content);
+  display: flex;
+  flex-direction: column;
+  font-family: NetflixSans, Helvetica, sans-serif;
+}

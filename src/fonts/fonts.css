@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'NetflixSans'; /* Название вашего шрифта */
+  src: 
+  /* url('./NetflixSans/NetflixSans-Medium.otf') format('otf'), */ url('./NetflixSans/NetflixSans-Medium.woff2')
+      format('woff2'),
+    url('./NetflixSans/NetflixSans-Regular.otf') format('otf'),
+    url('./NetflixSans/NetflixSans-Regular.woff2') format('woff2'),
+    url('./NetflixSans/NetflixSans-Bold.otf') format('otf'),
+    url('./NetflixSans/NetflixSans-Bold.woff2') format('woff2'),
+    url('./NetflixSans/NetflixSans-Light.otf') format('otf'),
+    url('./NetflixSans/NetflixSans-Light.woff2') format('woff2'); /* Путь к вашему файлу шрифта */
+  /* Дополнительные форматы шрифта, если они доступны */
+  /* font-weight, font-style, и другие свойства шрифта */
+}

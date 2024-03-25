@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.face {
+  padding: 50px 75px;
+  margin: 50px 0 0 0;
+}
+
+.item3, .item2, .item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* нельзя выделить текст */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  height: 100%;
+  width: 100%;
+}
+
+.item1 {
+  background-color: rgb(70, 193, 152);
+}
+
+.item2 {
+  background-color: rgb(231, 116, 0);
+}
+
+.item3 {
+  background-color: rgb(107, 23, 211);
+}/*# sourceMappingURL=face.module.css.map */
