@@ -5,7 +5,7 @@ import Carousel4 from './Carousel4/carousel'
 
 const images = [
   {
-    lowQualitySrc: '/src/assets/carousel1/1small.jpg',
+    lowQualitySrc: '/public/carousel1/1small.jpg',
     highQualitySrc: '/carousel1/1orig.jpeg',
     text: 'Белый харёк',
   },
