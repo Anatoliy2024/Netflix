@@ -1,7 +1,6 @@
 {
   "name": "netflix",
   "private": true,
-  "homepage": "https://anatoliy2024.github.io/Netflix/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
