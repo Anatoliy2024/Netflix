@@ -40,7 +40,7 @@
     position: relative;
     &::before {
       content: '';
-      background: url('/language.png') no-repeat;
+      background: url('../Netflix/language.png') no-repeat;
       background-size: 25px 25px;
       display: block;
       width: 30px;
@@ -60,7 +60,7 @@
 
       appearance: none;
       overflow: hidden;
-      background: black url('/arrow.png') no-repeat 95% 44%/15px 15px;
+      background: black url('../Netflix/arrow.png') no-repeat 95% 44%/15px 15px;
       option {
         background: black;
       }

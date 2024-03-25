@@ -3,7 +3,7 @@ export function Header({ openRegForm, userActive, setUsersActive }: any) {
   return (
     <div className={style.header}>
       <div className={style.boxLogo}>
-        <img className={style.img} src='/logo.webp' />
+        <img className={style.img} src='../Netflix/logo.webp' />
       </div>
       <div className={style.buttonHeader}>
         <p>UNLIMITED TV PROGRAMMES & FILMS</p>
