@@ -15,7 +15,7 @@ const images = [
     text: 'Тюлень',
   },
   {
-    lowQualitySrc: '/carousel1/3small.jpeg',
+    lowQualitySrc: '../public/carousel1/3small.jpeg',
     highQualitySrc: '/carousel1/3orig.jpg',
     text: 'Пара туканов',
   },
