@@ -9,26 +9,44 @@
   align-items: center;
   justify-content: center;
   .containerForm {
-    width: 50vw;
-    height: 50vh;
-    background: rgba(33, 47, 92, 0.93);
+    width: 500px;
+    height: 500px;
+    background: rgba(34, 53, 116, 0.844);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+
+    @media (max-width: 500px) {
+      width: 90vw;
+    }
   }
-  form {
+  .Form {
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
     label {
-      margin-bottom: 5px;
+      margin-bottom: 10px;
+      text-align: center;
     }
     input {
       margin-bottom: 15px;
+      border-radius: 10px;
+      padding-left: 5px;
+      @media (max-width: 500px) {
+        width: 80vw;
+      }
     }
     button {
       margin-bottom: 10px;
       padding: 10px;
+      @media (max-width: 500px) {
+        width: 80vw;
+      }
+    }
+    button:hover {
+      background: #1d44a9;
+      color: #fff;
     }
   }
 }

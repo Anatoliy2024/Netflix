@@ -4,14 +4,16 @@
   margin: 50px 0 0 0;
 }
 
-.item3, .item2, .item1 {
+.item3,
+.item2,
+.item1 {
   display: flex;
   align-items: center;
   justify-content: center;
   /* нельзя выделить текст */
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   height: 100%;
   width: 100%;
 }
@@ -26,4 +28,4 @@
 
 .item3 {
   background-color: rgb(107, 23, 211);
-}/*# sourceMappingURL=face.module.css.map */
+} /*# sourceMappingURL=face.module.css.map */

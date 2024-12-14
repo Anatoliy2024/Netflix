@@ -50,6 +50,9 @@ button:focus-visible {
     padding-right: 20px;
     display: flex;
     align-items: center;
+    @media (max-width: 630px) {
+      display: none;
+    }
   }
   button {
     padding: 5px 25px;
@@ -57,9 +60,20 @@ button:focus-visible {
     color: white;
     background-color: red;
   }
+  button:hover {
+    background: rgba(140, 20, 20, 0.7);
+  }
   span {
     color: #8b91ffa1;
     padding-right: 20px;
     font-size: 20px;
+  }
+  .secondButton {
+    background: #000;
+    border: 1px solid white;
+  }
+  .secondButton:hover {
+    background: #703e3e;
+    border: 1px solid white;
   }
 }

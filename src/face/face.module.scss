@@ -1,11 +1,15 @@
 .face {
-  padding: 50px 75px;
+  padding: 10px 10px;
   margin: 50px 0 0 0;
   flex: 1 1 auto;
   // display: flex;
   // justify-content: center;
   // align-items: center;
   // min-height: 100%;
+  @media (min-width: 900px) {
+    padding: 50px 75px;
+    // margin: 50px 0 0 0;
+  }
 
   .containerFace {
     height: 1500px;
@@ -16,8 +20,14 @@
         margin-bottom: 10px;
         font-size: 40px;
       }
-      max-width: 40vw;
+      max-width: 90vw;
       margin-bottom: 30px;
+      @media (min-width: 900px) {
+        max-width: 40vw;
+
+        // padding: 50px 75px;
+        // margin: 50px 0 0 0;
+      }
     }
     .title {
       margin-bottom: 20px;
@@ -31,7 +41,7 @@
     position: relative;
     padding: 50px 0;
     &::before {
-      content: ' ';
+      content: " ";
       background: linear-gradient(180deg, transparent 0, #181818);
       height: 30em;
       bottom: 100%;
@@ -43,6 +53,9 @@
       width: 40vw;
       margin: 0 auto;
       text-align: center;
+      @media (max-width: 800px) {
+        width: 90vw;
+      }
       h2 {
         padding: 30px 0 10px 0;
       }
