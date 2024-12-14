@@ -37,6 +37,14 @@ function App() {
     }
   }, [showRegForm])
 
+  useEffect(() => {
+    const user = localStorage.getItem("userName")
+    if (user) {
+      setUsersName(user)
+      setUsersActive(true)
+    }
+  }, [])
+
   return (
     <NewContext.Provider
       value={{ width: width, offSet: offSet, setOffSet: setOffSet }}

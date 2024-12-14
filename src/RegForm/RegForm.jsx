@@ -16,6 +16,7 @@ export function RegForm({
       setUsersActive(true)
       setShowRegForm("")
       setUsersName(name)
+      localStorage.setItem("userName", name)
     } else {
       alert("Неправильный логин или пароль")
     }
@@ -28,6 +29,8 @@ export function RegForm({
       setUsersActive(true)
       setShowRegForm("")
       setUsersName(name)
+      localStorage.setItem("userName", name)
+
       // setIsCopy(false)
     }
   }

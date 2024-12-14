@@ -22,6 +22,9 @@ export function Header({
                 setShowRegForm("")
                 setUsersActive(false)
                 setUsersName("")
+                if (localStorage.getItem("userName")) {
+                  localStorage.removeItem("userName")
+                }
               }}
             >
               Выход
